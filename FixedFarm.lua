@@ -13,7 +13,7 @@ rt.player = game.Players.LocalPlayer
 
 rt.coinContainer = nil
 rt.radius = 500 :: number -- Radius to search for coins
-rt.walkspeed = 30 :: number -- speed at which you will go to a coin measured in walkspeed
+rt.walkspeed = 20 :: number -- speed at which you will go to a coin measured in walkspeed
 rt.touchedCoins = {} -- Table to track touched coins
 rt.positionChangeConnections = setmetatable({}, { __mode = "v" }) -- Weak table for connections
 rt.Added = nil :: RBXScriptConnection
